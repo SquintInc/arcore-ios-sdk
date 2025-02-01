@@ -41,11 +41,11 @@ Pod::Spec.new do |s|
       cloud.frameworks = ['ARKit', 'CoreFoundation', 'CoreGraphics', 'CoreImage', 'CoreMotion', 'CoreVideo', 'CoreTelephony', 'Foundation', 'ImageIO', 'Security', 'SystemConfiguration', 'UIKit']
       cloud.libraries = ['c++', 'z', 'sqlite3', 'm']
       cloud.preserve_paths = 'CloudAnchors/dummy.m'
-      cloud.dependency 'ARCore/GARSession', '~> 1.47.1'
-      cloud.dependency 'ARCore/Base', '~> 1.47.1'
-      cloud.dependency 'ARCore/TFShared', '~> 1.47.1'
-      cloud.dependency 'ARCore/GARSession', '~> 1.47.1'
-      cloud.dependency 'ARCore/Base', '~> 1.47.1'
+      cloud.dependency 'ARCore/GARSession', '~> 1.47.0'
+      cloud.dependency 'ARCore/Base', '~> 1.47.0'
+      cloud.dependency 'ARCore/TFShared', '~> 1.47.0'
+      cloud.dependency 'ARCore/GARSession', '~> 1.47.0'
+      cloud.dependency 'ARCore/Base', '~> 1.47.0'
       cloud.dependency 'GTMSessionFetcher/Core', '>= 3.4', '< 4.1.0'
       cloud.dependency 'nanopb', '~> 3.30910'
     end
@@ -56,9 +56,9 @@ Pod::Spec.new do |s|
       geo.frameworks = ['ARKit', 'AVFoundation', 'CoreFoundation', 'CoreGraphics', 'CoreImage', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'CoreVideo', 'Foundation', 'ImageIO', 'SceneKit', 'Security', 'SystemConfiguration', 'UIKit']
       geo.libraries = ['c++', 'z', 'sqlite3', 'dl', 'm']
       geo.preserve_paths = 'Geospatial/dummy.m'
-      geo.dependency 'ARCore/Base', '~> 1.47.1'
-      geo.dependency 'ARCore/TFShared', '~> 1.47.1'
-      geo.dependency 'ARCore/GARSession', '~> 1.47.1'
+      geo.dependency 'ARCore/Base', '~> 1.47.0'
+      geo.dependency 'ARCore/TFShared', '~> 1.47.0'
+      geo.dependency 'ARCore/GARSession', '~> 1.47.0'
     end
   
     s.subspec 'GARSession' do |gar|
@@ -70,7 +70,7 @@ Pod::Spec.new do |s|
       gar.resource_bundles = {
         'ARCoreResources' => 'GARSession/Resources/ARCoreResources/**'
       }
-      gar.dependency 'ARCore/Base', '~> 1.47.1'
+      gar.dependency 'ARCore/Base', '~> 1.47.0'
       gar.dependency 'Firebase/RemoteConfig', '~> 11.2'
       gar.dependency 'nanopb', '~> 3.30910'
   
@@ -85,8 +85,8 @@ Pod::Spec.new do |s|
       faces.resource_bundles = {
         'ARCoreFaceResources' => 'AugmentedFaces/Resources/ARCoreFaceResources/**'
       }
-      faces.dependency 'ARCore/Base', '~> 1.47.1'
-      faces.dependency 'ARCore/TFShared', '~> 1.47.1'
+      faces.dependency 'ARCore/Base', '~> 1.47.0'
+      faces.dependency 'ARCore/TFShared', '~> 1.47.0'
       faces.dependency 'nanopb', '~> 3.30910'
     end
   
@@ -99,9 +99,9 @@ Pod::Spec.new do |s|
       semantics.resource_bundles = {
         'ARCoreCoreMLSemanticsResources' => 'Semantics/Resources/ARCoreCoreMLSemanticsResources/**'
       }
-      semantics.dependency 'ARCore/Base', '~> 1.47.1'
-      semantics.dependency 'ARCore/TFShared', '~> 1.47.1'
-      semantics.dependency 'ARCore/GARSession', '~> 1.47.1'
+      semantics.dependency 'ARCore/Base', '~> 1.47.0'
+      semantics.dependency 'ARCore/TFShared', '~> 1.47.0'
+      semantics.dependency 'ARCore/GARSession', '~> 1.47.0'
     end
   
     s.subspec 'TFShared' do |tf|
@@ -110,6 +110,6 @@ Pod::Spec.new do |s|
       tf.frameworks = ['Accelerate']
       tf.libraries = ['c++', 'z']
       tf.preserve_paths = 'TFShared/dummy.m'
-      tf.dependency 'ARCore/Base', '~> 1.47.1'
+      tf.dependency 'ARCore/Base', '~> 1.47.0'
     end
   end
