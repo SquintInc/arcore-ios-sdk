@@ -41,7 +41,7 @@
         {
             "dependencies": {
                 "GoogleDataTransport": [
-                    "~> 9.2"
+                    "~> ~> 10.0"
                 ],
                 "nanopb": [
                     "~> 3.30910"
