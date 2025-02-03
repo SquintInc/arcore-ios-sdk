@@ -112,8 +112,11 @@
             "source_files": [
                 "CloudAnchors/Sources/dummy.h"
             ],
+            "source": {
+                "http": "https://dl.google.com/arcore/swiftpm/1.47.0/CloudAnchors.zip"
+            },
             "vendored_frameworks": [
-                "CloudAnchors/Frameworks/ARCoreCloudAnchors.xcframework"
+                "ARCoreCloudAnchors.xcframework"
             ]
         },
         {
@@ -197,8 +200,11 @@
             "source_files": [
                 "GARSession/Sources/dummy.h"
             ],
+            "source": {
+                "http": "https://dl.google.com/arcore/swiftpm/1.47.0/GARSession.zip"
+            },
             "vendored_frameworks": [
-                "GARSession/Frameworks/ARCoreGARSession.xcframework"
+                "ARCoreGARSession.xcframework"
             ]
         },
         {
