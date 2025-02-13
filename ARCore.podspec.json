@@ -36,7 +36,7 @@
         "EXCLUDED_ARCHS[sdk=iphoneos*]": "armv7",
         "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
     },
-    "version": "1.47.0-hotfix.1",
+    "version": "1.47.0",
     "subspecs": [
         {
             "dependencies": {
