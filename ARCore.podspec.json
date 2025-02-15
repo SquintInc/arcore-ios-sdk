@@ -160,7 +160,7 @@
             "dependencies": {
                 "ARCore/Base": "~> 1.47",
                 "Firebase/RemoteConfig": [
-                    "~> 11.7.0"
+                    "~> 11.8.0"
                 ],
                 "nanopb": [
                     "~> 3.30910"
