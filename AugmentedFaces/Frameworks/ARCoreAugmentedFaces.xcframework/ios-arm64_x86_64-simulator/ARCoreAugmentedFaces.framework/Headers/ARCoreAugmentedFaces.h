@@ -1,0 +1,12 @@
+#import <ARCoreAugmentedFaces/GARAugmentedFace.h>
+#import <ARCoreAugmentedFaces/GARAugmentedFaceFrame.h>
+#import <ARCoreAugmentedFaces/GARAugmentedFaceMesh.h>
+#import <ARCoreAugmentedFaces/GARAugmentedFaceSession.h>
+#import <ARCoreAugmentedFaces/GARAugmentedFace.h>
+#import <ARCoreAugmentedFaces/GARAugmentedFaceFrame.h>
+#import <ARCoreAugmentedFaces/GARAugmentedFaceMesh.h>
+#import <ARCoreAugmentedFaces/GARAugmentedFaceSession.h>
+#import <ARCoreAugmentedFaces/GARAugmentedFace.h>
+#import <ARCoreAugmentedFaces/GARAugmentedFaceFrame.h>
+#import <ARCoreAugmentedFaces/GARAugmentedFaceMesh.h>
+#import <ARCoreAugmentedFaces/GARAugmentedFaceSession.h>
